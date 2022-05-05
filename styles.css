@@ -1,0 +1,272 @@
+*{
+ box-sizing: border-box;
+}
+
+html,body{
+ margin: 0;
+ padding: 0;
+}
+
+/* Navigation bar */
+.nav-bar a {
+ text-decoration: none;
+ color: black;
+ display: block;
+ width: 100%;
+}
+
+.nav-bar > ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+}
+
+.nav-bar > ul > li > a {
+ padding: 10px;
+ background: lightgrey;
+}
+
+.nav-bar > ul > li > a:hover {
+ background: black;
+ color: white;
+}
+
+.nav-bar .active {
+ background: black;
+ color: white;
+}
+
+.nav-bar li {
+ border-bottom: 1px solid black;
+}
+
+.nav-bar li:last-child {
+ border: none;
+}
+
+.nav-bar li {
+ float: left;
+ width: 20%;
+ height: 20px;
+ text-align: center;
+ border-right: 1px solid black;
+}
+
+.content {
+  margin-t0p: 80%;
+  height: 80%;
+  padding: 20px;
+}
+
+/* icon */
+div .bag-img {
+  float: right;
+  width: 30px;
+  height: 50px;
+}
+
+.icon {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.p-1 {
+float: left;
+width: 50%;
+line-height: 25px;
+margin-bottom: 20px; 
+}
+
+.button-1 {
+  clear: left;
+}
+
+.one{
+  color: white;
+  background: black;
+  width: 170px;
+  height: 40px;
+  padding: 5px 15px;
+  border: none;
+  margin-bottom: 130px;
+}
+
+.p-2{
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+.p-2 h1 p{
+  text-align: center;
+}
+
+.two{
+  color: white;
+  background: black;
+  width: 170px;
+  height: 40px;
+  padding: 5px 15px;
+  border: none;
+  margin-bottom: 40px;
+}
+
+.three{
+  color: white;
+  background: black;
+  width: 140px;
+  height: 40px;
+  padding: 5px 15px;
+  border: none;
+  margin-bottom: 40px;
+}
+
+.four{
+  color: white;
+  background: black;
+  width: 120px;
+  height: 40px;
+  padding: 5px 15px;
+  border: none;
+  margin-bottom: 40px;
+}
+
+.needs{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.needs p {
+  text-align: center;
+}
+
+.our-story p{
+  line-height: 25px;
+}
+
+.our-story{
+  margin-bottom: 30px;
+}
+
+.five {
+  color: white;
+  background: black;
+  width: 140px;
+  height: 40px;
+  padding: 5px 15px;
+  border: none;
+  margin-bottom: 80px;
+}
+
+.gallery{
+  text-align: center;
+}
+
+w-100{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  object-fit: fill;
+}
+
+.one-w img{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  object-fit: fill;
+}
+
+.two-w img {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  object-fit: fill;
+}
+
+.three-w img {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  object-fit: fill;
+}
+
+.four-w img {
+  width: 100%;
+  height: auto;
+}
+
+.images{
+  margin-bottom: 25px;
+}
+
+.six {
+  color: white;
+  background: black;
+  width: 200px;
+  height: 40px;
+  padding: 5px 15px;
+  border: none;
+  margin-bottom: 80px;
+}
+
+.six-w p{
+  text-align: center;
+}
+
+.Footer {
+  background: black;
+  color: white;
+  padding: 20px;
+  width: 100%;
+}
+
+div p .ship{
+  text-decoration: underline;
+}
+
+.ship a {
+  color: white;
+}
+
+.mail {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.email-w {
+  width: 100%;
+  padding: 13px;
+  border: none;
+  background-color: lightgrey;
+}
+
+.submit-w {
+  width: 30%;
+  color: black;
+  background-color: white;
+  padding: 10px 12px;
+  margin: 12px 0;
+  border: none;
+}
+
+.socialplatforms {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.img-box {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-box img {
+  width: 15%;
+  height: 20px;
+}
